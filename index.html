@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<title>三里屯</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/animate.css" type="text/css" rel="stylesheet"> 
+<script src="js/jquery-2.0.2.min.js" ></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/device.min.js"></script>
+</head>
+
+<body>
+<!--进入页面-->
+	<section class="into pageShow ">
+    	<img src="img/pic3.png" alt="飞机">
+        <img src="img/pic2.png" alt="汽车">
+        <img src="img/pic1.png" alt="轨道"> 
+        <p id="p1"><span></p>  
+    </section>
+<!--第一个页面手机振动-->  
+    <section class="page1">
+    	<div class="cloud"><img src="img/pic4.png" alt="云"></div>
+        <div class="sanlitun">
+            <img src="img/pic5.png" alt="主页">
+            <img src="img/pic6.png" alt="手机" >
+            <img src="img/pic7.png" alt="手机振动" id="iphone"> 
+            <audio loop src="music/into.mp3"></audio> 
+        </div>
+    </section>
+<!--第二个页面收到短信-->
+    <section class="page2">
+    	<img src="img/iPhone6.png">     
+        <img src="img/pic60.png">
+        <img src="img/pic8.png" id="mess">
+        <audio src="music/2.mp3"></audio>    
+    </section>
+<!--第三个页面女孩发短信让男孩在机场等候马上过去 -->
+    <section class="page3 ">
+    	<img src="img/pic2.jpg">
+        <img src="img/pic3.jpg">
+        <div class="message">
+            <img src="img/pic9.png">
+            <img src="img/send.png" id="fs" style="display:none;">
+            <audio loop src="music/3.mp3"></audio>
+        </div>
+    </section>
+<!--第四个页面发完短信好显示页面-->
+    <section class="page4 ">
+    	<img src="img/pic2.jpg">
+        <img src="img/pic3.jpg">
+        <img src="img/4girl@2x.png">
+        <img src="img/4photo@2x.png">
+        <audio src="music/1.mp3"></audio>
+    </section>
+<!--第五个页面呼叫出租车-->
+	<section class="page5">
+    	<img src="img/pic5.jpg" alt="滴滴页面">
+        <img src="img/pic19.png" >
+        <img src="img/pic13.png" alt="呼叫按钮">
+        <img src="img/pic14.png" id="hujiao">
+     </section>
+<!--第六个页面滴滴一下马上出发-->
+	<section class="page6">
+    	<img src="img/pic6.jpg">
+        <img src="img/pic7.jpg">
+        <img src="img/pic15.png">
+        <audio src="music/didi.mp3"></audio>
+    </section>
+<!--    第七个页面接电话-->
+	<section class="page7 ">
+    	<img src="img/pic8.jpg"> 
+        <img src="img/pic18.png" id="jie">
+        <img src="img/pic17.png">
+        <img src="img/pic16.png">
+        <audio loop src="music/6.mp3"></audio>
+     </section>
+<!--  第八个页面 接完电话挂断-->
+ 	<section class="page8 ">
+    	<img src="img/pic9.jpg">
+        <img src="img/pic20.png" id="gua">
+        <audio src="music/nansheng.mp3"></audio>
+  		<p class="p2">00:<span id="span2">00</span></p>
+     </section>
+<!--第九个页面 弹出号码卫士-->
+   <section class="page9"> 
+   		<img src="img/pic11.jpg"> 
+        <img src="img/9guard@2x.png" id="weishi">
+   </section>
+<!--第十个页面 点击卫士 变换弹出什么情况-->  
+        <section class="page10 ">
+        	<img src="img/pic11.jpg">
+        	<p>什么情况？你也喜欢我？我竟然都不知道，我怎么这么笨啊，一定等我！</p>
+            <img src="img/10button@2x.png" id="cha">
+            <audio src="music/9.1.mp3"></audio>
+            <audio src="music/9.2.mp3"></audio>
+        </section> 
+<!--第十一个页面 何师傅对话 加速开 -->
+   <section class="page11 ">
+   		<img src="img/11car@2x.png">
+        <img src="img/11text@2x.png">
+   </section>
+<!--第十二个页面 发短信 过海关也要见男孩-->
+   <section class="page12 ">
+    	<img src="img/pic2.jpg">
+        <img src="img/12man@2x.png">
+        <img src="img/pic28.png">
+        <img src="img/send.png" id="fss" style="display:none;">
+        <audio src="music/2.mp3"></audio>
+        <audio loop src="music/3.mp3"></audio>
+    </section>
+<!--第十三个页面 显示完整短信-->
+     <section class="page13">
+     	<img src="img/pic2.jpg">
+        <img src="img/12man@2x.png">
+        <img src="img/pic14.jpg">
+        <img src="img/4photo@2x.png">
+        <audio src="music/1.mp3"></audio>
+     </section>
+<!--第十四个页面 怎么办过海关了-->
+    <section class="page14 ">
+    	<img src="img/pic15.jpg">
+        <img src="img/14text@2x.png">
+        <!--第十五个页面 感叹号-->
+        <img src="img/14wa.png">
+        <!-- 第十六个页面 说要买票-->
+        <img src="img/pic57.png">    
+        <img src="img/10button@2x.png" id="ca">
+        <audio src="music/12.mp3"></audio>
+   </section>
+<!--第十七个页面提交订单买票-->
+    <section class="page17 ">
+    	<img src="img/16ticket@2x.png">
+        <img src="img/pic31.png">
+        <img src="img/pic32.png" id="tijiao">
+    </section>
+<!--第十八个页面订票填号码-->
+	<section class="page18 ">
+    	<img src="img/pic18.jpg"> 
+        <input type="text" value="手机号" id="text1">
+        <input type"text" value="验证码" id="text2" style="display:none" >
+        <img src="img/pic35.png">
+        <img src="img/pic36.png" id="jieshou" style="display:none">
+        <img src="img/pic37.png">
+        <img src="img/pic38.png" id="ok" style="display:none">
+    </section> 
+<!--第十九个页面 接受语音来电话--> 
+	<section class="answer">
+    	 <img src="img/pic21.jpg"> 
+         <img src="img/pic18.png" id="jiejie">
+         <img src="img/pic17.png">
+         <img src="img/pic16.png">
+         <audio loop src="music/6.mp3"></audio>  
+     </section>  
+<!--  第二十个页面 接完电话挂断-->
+ 	<section class="page20 ">
+    	<img src="img/8callon@2x.png">
+        <img src="img/pic20.png" id="guaduan">
+        <audio loop src="music/27.mp3"></audio>
+        <p class="p2">00:<span id="span3">00</span></p>
+     </section> 
+<!--第二十一个页面填验证码-->
+	<!--<section class="page21">
+    	<img src="img/pic18.jpg"> 
+        <input type="text" value="手机号">
+        <input type"text" value="验证码" id="text2">
+        <img src="img/pic35.png">
+        <img src="img/pic37.png">
+        <img src="img/pic38.png" id="ok" style="display:none">
+    </section> -->
+<!--  第二十二个页面 订单详情-->
+	<section class="page22 ">
+    	<img src="img/pic19.jpg">
+        <img src="img/pic42.png" id="fanhui">
+    </section>
+<!-- 第二十三个页面 弹出语言卫士框-->
+   <section class="popup  "> 
+   		<img src="img/pic11.jpg"> 
+        <img src="img/pic43.png" id="queding">
+   </section>
+<!--第二十四个页面 码表加速-->
+	<section class="page24 ">
+    	<img src="img/pic20.jpg">
+        <img src="img/pic45.png">
+        <img src="img/pic46.png">
+        <audio src="music/10.mp3"></audio>
+    </section>
+<!--第二十五个页面 接受语音来电话  --> 
+	<section class="page25">
+     	 <img src="img/pic21.jpg"> 
+      	 <img src="img/pic18.png" id="jt">
+         <img src="img/pic17.png">
+         <img src="img/pic16.png">        
+     </section>  
+<!--第二十六个页面 接完电话挂断-->
+ 	<section class="hangup ">
+    	<img src="img/8callon@2x.png">
+        <img src="img/pic20.png" id="ko">
+        <audio  src="music/21.mp3"></audio>
+        <p class="p2">00:<span id="span4">00</span></p>
+     </section> 
+<!-- 第二十七个页面 弹出语言卫士框-->
+   <section class="page27 "> 
+   		<img src="img/pic15.jpg"> 
+        <img src="img/pic48.png" id="shen">
+   </section>
+<!-- 第二十八个页面 女孩男孩见面-->
+   <section class="page28  ">
+		<img src="img/26meet@2x.png">
+        <img src="img/pic60.png">
+        <img src="img/26text@2x.png">
+        <img src="img/26button@2x.png">
+        <audio loop src="music/28.mp3"></audio>
+   </section>
+
+<script>
+    var isMobile = device.mobile();   //手机
+    var touchEvents = {
+    touchstart: "touchstart",
+    touchmove: "touchmove",
+    touchend: "touchend",
+    };
+    if(!isMobile){
+        $('body').css({
+            'width':360*0.9+'px',
+            'height':640*0.9+'px',
+            'position':'absolute',
+            'left':0,
+            'top':0,
+            // 'right':0,
+            // 'bottom':0,
+            // 'margin':'auto'
+            
+        })
+        $('#p1').css({
+            'top':'70%',
+            'left':'40%'
+        })
+        $('.page').css({
+            'height':'89.79%',
+        })
+        this.touchstart = "mousedown";
+        this.touchmove = "mousemove";
+        this.touchend = "mouseup";
+        
+        console.log('isPc')
+    }
+</script>
+ 
+</body>
+</html>
